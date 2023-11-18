@@ -1,4 +1,4 @@
-import kotlin.Unit as Unit1
+
 
 fun main (){
     println(sum(2,4))
@@ -12,6 +12,6 @@ fun sum (a: Int, b: Int): Int {
 }
 fun addition (a:Int, b:Int) = a + b
 
-fun printSum(a:Int, b: Int) : Unit1 {
+fun printSum(a:Int, b: Int)  {
     println("the sum of $b is ${a + b}")
 }
